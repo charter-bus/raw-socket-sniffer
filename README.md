@@ -1,5 +1,5 @@
 # raw-socket-sniffer
-IP traffic sniffer in Python using raw sockets.
+IP traffic sniffer in Python using raw sockets, without the Scapy module.
 <br>
 <br>
 The most "feature-rich" script in this set of sniffers, is the <code>scanner.py</code>.
