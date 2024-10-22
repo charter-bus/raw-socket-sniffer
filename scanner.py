@@ -8,7 +8,7 @@ import threading
 import time
 
 # Subnet to target with UDP packets
-SUBNET = '10.0.0.0/24'
+SUBNET = 'SUBNET'
 MESSAGE = 'UDP_WITH_PYTHON_SCRIPT_MESSAGE'
 
 # Define the data structure for the IP header portions.
@@ -106,7 +106,7 @@ if __name__ == '__main__':
     if len(sys.argv) == 2:
         host = sys.argv[1]
     else:
-        host = '10.0.0.191'
+        host = 'HOST'
     s = Scanner(host)
     time.sleep(5)
     t = threading.Thread(target=udp_sender)
